@@ -18,12 +18,12 @@ There are two sets of scripts: (i) one for offers in Germany from autoscout24.de
 To get and plot data from autoscout24.de (German offers) simply:
 - choose search car options in *parameters_de.py*. Check existing examples; to add more check brand/model names in autoscout24.de.
 - run *python scrape_autoscout24_de.py*. This saves a car data table in *data_store_de/*.
-- run *python plot_data_de.py*. This makes a plot with key car data; the figure is saved in *fig_store_de/*.
+- run *python plot_data_de.py*. This makes a plot with key car data; the figure is saved in *fig_store_de/*. It also prints the URLs of selected car properties for closer inspection at the website.
 
 To get and plot data from standvirtual.com (Portuguese) simply:
 - choose search car options in *parameters_pt.py*. Check existing examples; to add more check brand/model names in standvirtual.com
 - run *python scrape_standvirtual_pt.py*. This saves a car data table in *data_store_pt/*.
-- run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*.
+- run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*. It also prints the URLs of selected car properties for closer inspection at the website.
 
 ### Results overview for different cars same country
 

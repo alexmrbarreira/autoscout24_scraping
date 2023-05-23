@@ -26,4 +26,7 @@ To get and plot data from standvirtual.com (Portuguese) simply:
 - run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*.
 
 ### Results overview for different cars same country
+
+This figure plots the data for Volkswagen Golf (Variant, *body_type='kombi'*) from autoscout24.de (Germany).
+
 ![fig_golf_de](./fig_store_de/fig_2016_kombi_volkswagen_golf.png)

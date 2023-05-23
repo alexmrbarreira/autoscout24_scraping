@@ -17,14 +17,14 @@ min_year  = '2016'
 #model = 'a4-avant'
 
 # BMW
-#brand = 'bmw'
-#model = 'serie-3'
+brand = 'bmw'
+model = 'serie-3'
 #model = 'serie-5'
 
 # Mercedes
-brand = 'mercedes-benz'
+#brand = 'mercedes-benz'
 #model = 'classe-c'
-model = 'classe-e'
+#model = 'classe-e'
 
 # Skoda
 #brand     = 'skoda'

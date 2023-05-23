@@ -41,5 +41,5 @@ The black dashed lines draw of box of target maximum price and kilometers. As ex
 The following two figures plot the data from BMW 3 series from autoscout24.de (Germany) and standvirtual.com (Portugal), respectively,
 
 ![](./fig_store_de/fig_2016_kombi_audi_a4.png)
-![](./fig_store_pt/fig_2016_kombi_audi_a4-avant.png)
+![](./fig_store_pt/fig_2016_audi_a4-avant.png)
 

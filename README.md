@@ -1,15 +1,16 @@
 # car_website_scraping
 Simple set of python scripts that gather data from car websites and plots a few car properties together. Useful to rapidly browse available car offers and visualize market trends.
 
+### Table of contents
+- [Dependencies](#dependencies)
+- [Running the scripts](#running-the-scripts)
+- [Results overview for different cars, same country](#results-overview-for-different-cars-same-country)
+
 ### Dependencies
 
 - numpy and matplotlib
 - pandas
 - bs4 - python web scraping library
-
-### Table of contents
-- [Running the scripts](#running-the-scripts)
-- [Results overview for different cars, same country](#results-overview-for-different-cars-same-country)
 
 ### Running the scripts
 There are two sets of scripts: (i) one for offers in Germany from autoscout24.de and (ii) another for offers in Portugal from standvirtual.com. Their use is similar.

@@ -45,7 +45,7 @@ These two figures plot the data from Volkswagen Golf-Variant from autoscout24.de
 
 A few interesting remarks from this figure include 
 - there are fewer offers in the desired price/km range in Portugal compared to Germany; 
-- there are very fer offers overall with less than 75.000 km, indicating in Portugal people hold on to their cars for longer before putting them on the market (this can be seed also by the abundance of bluer points on the right panel, which shows the car year);
+- in Portugal, there are very few offers overall with less than 75.000 km, indicating people hold on to their cars for longer before putting them on the market (this can be seed also by the abundance of bluer points on the right panel, which shows the car year);
 - in Portugal the cars are less powerful, suggesting that people either don't buy powerful Golfs in the first place (likely), or if they do they are not put back in the used car market (less likely).
 
 Overall, given the option, Germany is a better place to look for Volkswagen Golf. Playing around with these scripts for other car brands/models reveals the same general conclusion.

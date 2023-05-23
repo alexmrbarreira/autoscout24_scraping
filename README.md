@@ -13,4 +13,4 @@ Useful to rapidly browse available car offers and visualize market trends.
 ### Table of contents
 * [Running the scripts](#running-the-scripts)
 * [Results overview I : different cars, same country](#results-overview-I--different-cars,-same-country)
-* [Results overview II: different countries, same car](#different-countries,-same-car)
+* [Results overview II : different countries, same car](#results-overview-II--different-countries,-same-car)

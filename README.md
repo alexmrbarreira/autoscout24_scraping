@@ -16,5 +16,4 @@ Useful to rapidly browse available car offers and visualize market trends.
 * [Results overview II : different countries, same car](#results-overview-II--different-countries,-same-car)
 
 ### Running the scripts
-
-t
+There

@@ -16,4 +16,4 @@ Simple set of python scripts that gather data from car websites and plots a few 
 There are two sets of scripts: (i) one for offers in Germany from autoscout24.de and (ii) another for offers in Portugal from standvirtual.com
 
 To get and plot data from German offers simply
-- select search car options in >parameters_de.py
+- select search car options in parameters_de.py

@@ -30,3 +30,7 @@ To get and plot data from standvirtual.com (Portuguese) simply:
 This figure plots the data for Volkswagen Golf (Variant submodel, *body_type='kombi'*) from autoscout24.de (Germany).
 
 ![fig_golf_de](./fig_store_de/fig_2016_kombi_volkswagen_golf.png)
+
+This figureplots the data for Audi A4 (Avant submodel, *body_type='kombi'*) from autoscout24.de (Germany).
+
+![fig_golf_de](./fig_store_de/fig_2016_kombi_audi_a4.png)

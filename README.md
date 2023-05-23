@@ -43,5 +43,6 @@ These two figures plot the data from Volkswagen Golf-Variant from autoscout24.de
 ![](./fig_store_de/fig_2016_kombi_volkswagen_golf.png)
 ![](./fig_store_pt/fig_2016_vw_golf-variant.png)
 
-
+A few interesting remarks from this figure include:
+- there
 

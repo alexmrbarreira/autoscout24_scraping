@@ -9,7 +9,7 @@ Simple set of python scripts that gather data from car websites and plots a few 
 
 ### Table of contents
 - [Running the scripts](#running-the-scripts)
-- [Results overview for different cars, same country](#results-overview-for-different-cars,-same-country)
+- [Results overview for different cars, same country](#results-overview-for-different-cars-same-country)
 
 ### Running the scripts
 There are two sets of scripts: (i) one for offers in Germany from autoscout24.de and (ii) another for offers in Portugal from standvirtual.com. Their use is similar.
@@ -24,4 +24,4 @@ To get and plot data from standvirtual.com (Portuguese) simply:
 - run *python scrape_standvirtual_pt.py*. This saves a car data table in *data_store_pt/*.
 - run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*.
 
-### Results overview for different cars, same country
+### Results overview for different cars same country

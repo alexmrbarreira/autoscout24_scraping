@@ -48,5 +48,5 @@ A few remarks from this figure include:
 - in Portugal, there are very few offers overall with less than 75.000 km, indicating people hold on to their cars for longer before putting them on the market (this can be seen also by the abundance of bluer points on the right panel, which shows the car year);
 - in Portugal the cars are less powerful, suggesting that Golf buyers either don't opt for the stronger engine versions, or if they do they do not put them back in the used car market (though this appears less likely).
 
-Overall, given the option, Germany is a better place to look for Volkswagen Golf. Playing around with these scripts for other car brands/models reveals the same general conclusion (which was well known, but can be better visualized now with the aid of these scripts/plots).
+Overall, given the option, Germany is a better place to look for Volkswagen Golf. Playing around with these scripts for other car brands/models reveals the same general conclusion (which was well known, but can visualized now with the aid of these scripts/plots).
 

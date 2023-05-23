@@ -25,12 +25,12 @@ open_URL = True
 #open_URL = False
 
 price_min = 00.
-price_max = 25.
+price_max = 30.
 km_min    = 0.
 km_max    = 75.
-power_min = 150.
+power_min = 170.
 power_max = 500.
-year_min  = 2021
+year_min  = 2018
 year_max  = 2023
 
 if(print_URL):
@@ -49,7 +49,7 @@ if(print_URL):
 
 if(open_URL):
     print ('')
-    print ('Opening selected URLs with firefox ... ')
+    print ('Opening selected URLs with firefox ... set open_URL=False to skip this.')
     string_of_urls = ''
     for url_now in np.array(url)[wc_url]:
         string_of_urls += 'autoscout24.de' + url_now + ' '

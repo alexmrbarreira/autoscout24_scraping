@@ -21,8 +21,8 @@ url   =  df.loc[:,'URL'].tolist()
 print_URL = True
 #print_URL = False
 
-open_URL = True
-#open_URL = False
+#open_URL = True
+open_URL = False
 
 price_min = 00.
 price_max = 25.
@@ -49,7 +49,7 @@ if(print_URL):
 
 if(open_URL):
     print ('')
-    print ('Opening selected URLs with firefox ... ')
+    print ('Opening selected URLs with firefox ... set open_URL=False to skip this.')
     string_of_urls = ''
     for url_now in np.array(url)[wc_url]:
         string_of_urls += url_now + ' '

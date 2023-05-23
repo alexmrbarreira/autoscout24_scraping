@@ -38,7 +38,7 @@ This figure plots the data for Audi A4 (Avant submodel, *body_type='kombi'*) fro
 The black dashed lines draw of box of target maximum price and kilometers. As expected, there are far less Audi A4 than Volkswagen Golf in the selected range.
 
 ### Results overview for different countries same car
-The following two figures plot the data from BMW 3 series from autoscout24.de (Germany) and standvirtual.com (Portugal), respectively,
+These two figures plot the data from BMW 3 series from autoscout24.de (Germany) and standvirtual.com (Portugal), respectively,
 
 ![](./fig_store_de/fig_2016_kombi_volkswagen_golf.png)
 ![](./fig_store_pt/fig_2016_vw_golf-variant.png)

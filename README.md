@@ -43,7 +43,7 @@ These two figures plot the data from Volkswagen Golf-Variant from autoscout24.de
 ![](./fig_store_de/fig_2016_kombi_volkswagen_golf.png)
 ![](./fig_store_pt/fig_2016_vw_golf-variant.png)
 
-A few interesting remarks from this figure include 
+A few remarks from this figure include:
 - there are fewer offers in the target price/km range in Portugal compared to Germany; 
 - in Portugal, there are very few offers overall with less than 75.000 km, indicating people hold on to their cars for longer before putting them on the market (this can be seen also by the abundance of bluer points on the right panel, which shows the car year);
 - in Portugal the cars are less powerful, suggesting that Golf buyers either don't opt for the stronger engine versions, or if they do they do not put them back in the used car market (though this appears less likely).

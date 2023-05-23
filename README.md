@@ -17,5 +17,6 @@ There are two sets of scripts: (i) one for offers in Germany from autoscout24.de
 
 To get and plot data from German offers simply:
 - select search car options in parameters_de.py
+  -- g
 
 -- g

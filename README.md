@@ -6,8 +6,11 @@ Useful to rapidly browse available car offers and visualize market trends.
 
 ### Dependencies
 
+* numpy and matplotlib
 * pandas
 * bs4 - python web scraping library
 
 ### Table of contents
-* [General info](#general-info)
+* [Running the scripts](#running-the-scripts)
+* [Different cars, same country](#different-cars,-same-country)
+* [Different countries, same car](#different-countries,-same-car)

@@ -21,11 +21,14 @@ url   =  df.loc[:,'URL'].tolist()
 print_URL = True
 #print_URL = False
 
+open_URL = True
+#open_URL = False
+
 price_min = 00.
-price_max = 20.
+price_max = 25.
 km_min    = 0.
 km_max    = 75.
-power_min = 150.
+power_min = 100.
 power_max = 500.
 year_min  = 2018
 year_max  = 2022
@@ -43,6 +46,15 @@ if(print_URL):
                        (np.array(year)  >= year_min)  & (np.array(year)  <= year_max)  )
     for a in np.array(url)[wc_url]:
         print ('standvirtual.com' + a)
+
+if(open_URL):
+    print ('')
+    print ('Opening selected URLs with firefox ... ')
+    string_of_urls = ''
+    for url_now in np.array(url)[wc_url]:
+        string_of_urls += url_now + ' '
+    os.system('firefox ' + string_of_urls)
+    print ('')
 
 # =======================================================
 # Make plot

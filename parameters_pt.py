@@ -17,8 +17,8 @@ min_year  = '2016'
 #model = 'a4-avant'
 
 # BMW
-brand = 'bmw'
-model = 'serie-3'
+#brand = 'bmw'
+#model = 'serie-3'
 #model = 'serie-5'
 
 # Mercedes
@@ -32,8 +32,8 @@ model = 'serie-3'
 #model     = 'superb-break'
 
 # Volkswagen
-#brand = 'vw'
-#model = 'golf-variant'
+brand = 'vw'
+model = 'golf-variant'
 #model = 'passat-variant'
 
 # Volvo

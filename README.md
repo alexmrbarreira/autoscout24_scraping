@@ -25,7 +25,7 @@ To get and plot data from autoscout24.de (German offers):
 To get and plot data from standvirtual.com (Portuguese):
 - choose search car options in *parameters_pt.py*. Check existing examples; to add more check brand/model names in standvirtual.com
 - run *python scrape_standvirtual_pt.py*. This saves a car data table in *data_store_pt/*.
-- run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*. It also prints the URLs of selected car properties for closer inspection at the website.  If *open_URL=True* (which can be selected inside the file), it will direcly open the selected URLs with firefox.
+- run *python plot_data_pt.py*. This makes a plot with key car data; the figure is saved in *fig_store_pt/*. It also prints the URLs of selected car properties for closer inspection at the website.  If *open_URL=True* (which can be selected inside the file), it will directly open the selected URLs with firefox.
 
 ### Results overview for different cars same country
 This figure plots the data for Volkswagen Golf (Variant submodel, *body_type='kombi'*) from autoscout24.de (Germany).

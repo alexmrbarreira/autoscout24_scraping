@@ -21,8 +21,8 @@ url   =  df.loc[:,'URL'].tolist()
 print_URL = True
 #print_URL = False
 
-#open_URL = True
-open_URL = False
+open_URL = True
+#open_URL = False
 
 price_min = 00.
 price_max = 25.
@@ -44,6 +44,8 @@ if(print_URL):
                        (np.array(km)    >= km_min)    & (np.array(km)    <= km_max)    &
                        (np.array(power) >= power_min) & (np.array(power) <= power_max) &
                        (np.array(year)  >= year_min)  & (np.array(year)  <= year_max)  )
+    price_sel = np.array(price)[wc_url]
+    km_sel    = np.array(km)[wc_url]
     for a in np.array(url)[wc_url]:
         print ('standvirtual.com' + a)
 
@@ -59,6 +61,25 @@ if(open_URL):
 # =======================================================
 # Make plot
 # =======================================================
+
+def mark_selected(xx, yy):
+    fontsize_here = 16
+    for i in range(len(xx)):
+        draw_circle(xx[i], yy[i])
+    plt.annotate('Selection (circles):'                                         , xy = (0.55, 0.25), xycoords = 'axes fraction', c = 'k', fontsize = fontsize_here)
+    plt.annotate(r'Price $\ \in$   ['   + str(int(price_min))  + ',' + str(int(price_max)) + ']', xy = (0.55, 0.20), xycoords = 'axes fraction', c = 'k', fontsize = fontsize_here)
+    plt.annotate(r'Km    $\ \ \ \in$ [' + str(int(km_min))     + ',' + str(int(km_max))    + ']', xy = (0.55, 0.15), xycoords = 'axes fraction', c = 'k', fontsize = fontsize_here)
+    plt.annotate(r'Power $\in$     ['   + str(int(power_min))  + ',' + str(int(power_max)) + ']', xy = (0.55, 0.10), xycoords = 'axes fraction', c = 'k', fontsize = fontsize_here)
+    plt.annotate(r'Year  $\ \ \in$   [' + str(int(year_min))   + ',' + str(int(year_max))  + ']', xy = (0.55, 0.05), xycoords = 'axes fraction', c = 'k', fontsize = fontsize_here)
+    return 0
+def draw_circle(x0, y0):
+    r   = 1.
+    xx  = np.linspace(x0-r, x0+r, 100)
+    yy1 =  np.sqrt( -(xx - x0)**2. + r**2. ) + y0
+    yy2 = -np.sqrt( -(xx - x0)**2. + r**2. ) + y0
+    plt.plot(xx, yy1, c = 'k', linestyle = 'solid', linewidth = 1)
+    plt.plot(xx, yy2, c = 'k', linestyle = 'solid', linewidth = 1)
+    return 0
 
 labelsize   = 30
 ticksize    = 30
@@ -97,6 +118,7 @@ plt.scatter(np.array(km)[wc_1], np.array(price)[wc_1], c = np.array(power)[wc_1]
 plt.scatter(np.array(km)[wc_2], np.array(price)[wc_2], c = np.array(power)[wc_2], s = 40, marker = '^', label = 'Automatic', cmap = cmap_use, vmin = min_power_colors, vmax = max_power_colors)
 plt.plot([0., max_km_want], [max_price_want, max_price_want], linewidth = 2., linestyle = 'dashed', c = 'k')
 plt.plot([max_km_want, max_km_want], [0., max_price_want]   , linewidth = 2., linestyle = 'dashed', c = 'k')
+mark_selected(np.array(km_sel), np.array(price_sel))
 cb = plt.colorbar()
 cb.set_label(r'Power (HP)', fontsize = labelsize-2)
 cb.ax.tick_params(labelsize=ticksize-4)
@@ -116,6 +138,7 @@ plt.scatter(np.array(km)[wc_1], np.array(price)[wc_1], c = np.array(year)[wc_1],
 plt.scatter(np.array(km)[wc_2], np.array(price)[wc_2], c = np.array(year)[wc_2], s = 40, marker = '^', label = 'Diesel', cmap = cmap_use, vmin = min_year_colors, vmax = max_year_colors)
 plt.plot([0., max_km_want], [max_price_want, max_price_want], linewidth = 2., linestyle = 'dashed', c = 'k')
 plt.plot([max_km_want, max_km_want], [0., max_price_want]   , linewidth = 2., linestyle = 'dashed', c = 'k')
+mark_selected(np.array(km_sel), np.array(price_sel))
 cb = plt.colorbar()
 cb.set_label(r'Year', fontsize = labelsize-2)
 cb.ax.tick_params(labelsize=ticksize-4)

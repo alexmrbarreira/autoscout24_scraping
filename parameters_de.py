@@ -15,8 +15,8 @@ min_year  = '2016'
 body_type = 'kombi'
 
 # Audi
-#brand = 'audi'
-#model = 'a4'
+brand = 'audi'
+model = 'a4'
 
 # BMW
 #brand     = 'bmw'
@@ -39,8 +39,8 @@ body_type = 'kombi'
 #model     = 'superb'
 
 # Volkswagen
-brand     = 'volkswagen'
-model     = 'golf'
+#brand     = 'volkswagen'
+#model     = 'golf'
 #model     = 'golf-variant'
 #model     = 'passat'
 #model     = 'passat-variant'

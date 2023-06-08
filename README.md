@@ -41,8 +41,8 @@ The black dashed lines draw of box with some target maximum price and kilometers
 ### Results overview for different countries same car
 These two figures plot the data from Mercedes-Benz Class C from autoscout24.de (Germany) and standvirtual.com (Portugal).
 
-![](./fig_store_de/fig_store_de/fig_2016_kombi_mercedes-benz_c-klasse-\(alle\).png)
-![](./fig_store_pt/fig_store_pt/fig_2016_mercedes-benz_classe-c.png)
+![](./fig_store_de/fig_2016_kombi_mercedes-benz_c-klasse-\(alle\).png)
+![](./fig_store_pt/fig_2016_mercedes-benz_classe-c.png)
 
 A few remarks from this figure include:
 - the prices are visibly more expensive overall in Portugal than in Germany.

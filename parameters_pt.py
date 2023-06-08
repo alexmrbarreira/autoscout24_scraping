@@ -29,7 +29,6 @@ min_year  = '2016'
 # Skoda
 #brand     = 'skoda'
 #model     = 'octavia-break'
-#model     = 'superb-break'
 
 # Volkswagen
 brand = 'vw'
@@ -43,3 +42,16 @@ model = 'golf-variant'
 
 data_filename = 'data_store_pt/data_' + min_year + '_' + brand + '_' + model + '.csv'
 fig_filename  = 'fig_store_pt/fig_' + min_year + '_' + brand + '_' + model + '.png'
+
+# ======================================================= 
+# Selected car parameters 
+# =======================================================
+
+price_min = 00.
+price_max = 25.
+km_min    = 0.
+km_max    = 75.
+power_min = 150.
+power_max = 500.
+year_min  = 2018
+year_max  = 2023

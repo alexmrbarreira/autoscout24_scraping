@@ -24,15 +24,6 @@ print_URL = True
 open_URL = True
 #open_URL = False
 
-price_min = 00.
-price_max = 25.
-km_min    = 0.
-km_max    = 75.
-power_min = 150.
-power_max = 500.
-year_min  = 2019
-year_max  = 2023
-
 if(print_URL):
     print ('')
     print ('Selected URLs for:')

@@ -46,7 +46,7 @@ These two figures plot the data from Mercedes-Benz Class C from autoscout24.de (
 
 A few remarks from this figure include:
 - the prices are visibly more expensive overall in Portugal than in Germany.
-- in Germany there are far more options with more power (redder tonality on the left) compared to Portugal (bluer tonality on the left), suggesting the more powerful/sporty versions are even sought after in Portugal.
+- in Germany there are far more options with more power (redder tonality on the left) compared to Portugal (bluer tonality on the left), suggesting the more powerful/sporty versions are not as sought after in Portugal.
 
 Overall, given the option, Germany is a better place to look for Mercedes-Benz Class C. Playing around with these scripts for other car brands/models reveals the same general conclusion (which was well known, but can visualized now with the aid of these scripts/plots).
 

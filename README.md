@@ -1,5 +1,5 @@
 # car_website_scraping
-Simple set of python scripts that gather data from car websites and plot a few car properties together. Useful to rapidly browse available car offers and visualize market trends.
+Simple set of python scripts that gather data from car websites (autoscout24.de , standvirtual.pt) and plot a few car properties together. Useful to rapidly browse available car offers and visualize market trends.
 
 ### Table of contents
 - [Dependencies](#dependencies)

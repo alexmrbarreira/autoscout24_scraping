@@ -25,7 +25,7 @@ for page in range(1, max_page+1):
         #if (r"/anuncio/" in target_url) and (r"/leasing/" not in target_url): # this just removes some urls that contain angebote, but are not actual car offers
         if (r"/anuncio/" in target_url): 
             if( (brand not in target_url) or (model not in target_url)):
-                print ('The brand/model strings to not appear in the car URLs; could signal that the search failed. Check input parameters.')
+                print ('The brand/model strings do not appear in the car URLs; could signal that the search failed. Check input parameters.')
                 print ('brand, model, URL = ', brand, model, target_url)
             cars_URL.append(target_url)
 
